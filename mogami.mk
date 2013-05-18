@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/semc/mogami-common/prebuilt/hostapd.conf:system/etc/wifi/hostapd.conf \
     device/semc/mogami-common/prebuilt/wifiload:system/bin/wifiload
+    device/semc/mogami-common/prebuilt/iw:system/xbin/iw
 
 PRODUCT_PACKAGES += \
     wpa_supplicant.conf \
